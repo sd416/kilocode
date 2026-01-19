@@ -1,5 +1,19 @@
 # kilo-code
 
+## 4.148.2
+
+### Patch Changes
+
+- [#5179](https://github.com/Kilo-Org/kilocode/pull/5179) [`aff6137`](https://github.com/Kilo-Org/kilocode/commit/aff613714afe752fffba01ed5958d6123426b69c) Thanks [@lambertjosh](https://github.com/lambertjosh)! - Fix duplicate tool_result blocks when users approve tool execution with feedback text
+
+    Cherry-picked from upstream Roo-Code:
+
+    - [#10466](https://github.com/RooCodeInc/Roo-Code/pull/10466) - Add explicit deduplication (thanks @daniel-lxs)
+    - [#10519](https://github.com/RooCodeInc/Roo-Code/pull/10519) - Merge approval feedback into tool result (thanks @daniel-lxs)
+
+- Updated dependencies [[`cdc3e2e`](https://github.com/Kilo-Org/kilocode/commit/cdc3e2ea32ced833b9d1d1983a4252eda3c0fdf1)]:
+    - @kilocode/core-schemas@0.0.2
+
 ## 4.148.1
 
 ### Patch Changes
